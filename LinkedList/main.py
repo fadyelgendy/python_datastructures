@@ -8,5 +8,8 @@ if __name__ == '__main__':
     my_linked_list.add_head(3)
     my_linked_list.add_head(5)
     my_linked_list.add_at(6, 1)
+    my_linked_list.add_tail(0)
+
+    my_linked_list.remove(6)
 
     my_linked_list.print_list()

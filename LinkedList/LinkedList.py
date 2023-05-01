@@ -19,6 +19,13 @@ class LinkedList:
 
         self.size = self.size + 1
 
+    def add_tail(self, val):
+        new_node = Node(val)
+        self.tail.next = new_node
+        self.tail = new_node
+
+        self.size = self.size + 1
+
     def add_at(self, val, index):
         current = self.head
         new_node = Node(val)
@@ -36,6 +43,25 @@ class LinkedList:
         current.next = new_node
 
         self.size = self.size + 1
+
+    def remove(self, val):
+        target = None
+        current = self.head
+        prev = None
+
+        while current is not None:
+            if current.data is val:
+                target = current
+                current = current.next
+                prev.next = current
+                target.next = None
+                break
+            else:
+                prev = current
+                current = current.next
+        
+        print(f"[ {target.data}] is removed!")
+        self.size = self.size - 1
 
     def print_list(self):
         current = self.head
