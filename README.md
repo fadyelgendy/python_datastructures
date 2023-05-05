@@ -3,5 +3,6 @@ Data Structures is very imporant in sonfware engineering. Computers, of any type
 
 ## Datastructure List:
 - [x] Linked List => Singly Linked List
+- [x] Queue => FIFO [first in first out] data structure
 
 ...More to come
