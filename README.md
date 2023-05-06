@@ -8,5 +8,6 @@ Data Structures is very imporant in sonfware engineering. Computers, of any type
 - [x] Queue => FIFO [first in first out] data structure
 - [x] HashSet => HashSet data structure
 - [x] HashMap => HashMap [key, value] data structure
+- [x] Binary tree => Binary tree data structure
 
 ...More to come
