@@ -34,6 +34,13 @@ class HashSet(object):
         del self.data[index]
 
         return target
+    
+    def get(self, indx):
+        if self.contains(indx) is False:
+            return -1
+        
+        index = self.hash(indx)
+        return self.data[index]
 
     def hash(self, val):
         return val % 1000

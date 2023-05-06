@@ -11,4 +11,6 @@ if __name__ == '__main__':
     print(f'Remove[2]: {myHashSet.remove(2)}')
     print(f'Remove[4]: {myHashSet.remove(4)}')
 
+    print(f'Get: {myHashSet.get(1)}')
+
     myHashSet.print_hash_set()
