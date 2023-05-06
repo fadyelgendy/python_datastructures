@@ -7,5 +7,6 @@ Data Structures is very imporant in sonfware engineering. Computers, of any type
 - [x] Stack => LIFO [Last in first out] data structure
 - [x] Queue => FIFO [first in first out] data structure
 - [x] HashSet => HashSet data structure
+- [x] HashMap => HashMap [key, value] data structure
 
 ...More to come
